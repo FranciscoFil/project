@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+header{
+    width: 100%;
+    background-image: url(https://i.pinimg.com/736x/ed/fa/df/edfadfc9dc4f2d5e6c55443fc2eec91f.jpg);
+    background-size: cover;
+
+}
+body{
+    width: 100%;
+}
+.container-play-a {
+    background-image: url(https://assets.xboxservices.com/assets/0d/4d/0d4dabff-01c8-4f27-98a4-64f023c8d6fc.jpg?n=XGP_Super-Hero-1400_10-26-23_1920x1080.jpg);
+    background-repeat: repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 3rem;
+    width: 100%;
+    padding: 5rem 0rem;
+   
+}
+.conteudo-1-play img{
+    margin: auto;
+    transition: width 1.8s, transform 0.6s;
+    
+}
+.conteudo-1-play img:hover{
+    transform: scale(1.6);
+}
+.container-play-a-1{
+    width: 100%;
+    display: flex;
+    color: rgb(0, 255, 42);
+    justify-content: space-evenly;
+    padding-top: 1rem;
+   
+}
+
+.marvel img{
+   margin: 2rem 2rem;
+   box-shadow: 1px 1px 10px black;
+   border-radius: 2rem;
+   width: 90%;
+   transition: width 1.8s, transform 0.6s;
+   
+
+}
+.marvel img:hover{
+    transform: scale(1.1);
+}
+.container-play-a h1{
+    margin: 1rem;
+    text-align: center;
+}
+.conteudo-1-play {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    margin-right: 48%;
+    width: 48%;
+}
+.conteudo-1-play p {
+ text-align: left;
+
+}
+
+.conteudo-1-play button {
+    width: 20%;
+    margin: auto;
+    border-radius: 1rem;
+    height: 2rem;
+    border: none;
+    background-color: green;
+    cursor: pointer;
+    transition: width 1.4s ease, background-color 5.4s ease;
+}
+
+@keyframes colorChange {
+    0% { background-color: red; }
+    20% { background-color: orange; }
+    40% { background-color: yellow; }
+    60% { background-color: green; }
+    80% { background-color: blue; }
+    100% { background-color: indigo; }
+}
+.conteudo-1-play button:hover {
+    width: 25%;
+    animation: colorChange 0.5s infinite; /* 5 segundos de animação, loop infinito */
+}
+.container-play-b{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    margin: 1rem 0rem;
+
+
+}
+.card-play-a{
+    border: 1px solid rgba(43, 40, 40, 0.482);
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
+    box-shadow: 1px 1px 10px  rgb(80, 79, 79);
+    background-color: aliceblue;
+    width: 20%;
+    margin-top: 1rem;
+}
+.card-play-a img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+.card-play-img{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* height: 300px; */
+}
+.card-play-a a button {
+    background-color: green;
+    border-radius: 1rem;
+    height: 2rem;
+    border: none;
+    width: 90%;
+    color: white;
+    cursor: pointer;
+    transition: width 1.8s, transform 0.2s;
+}
+.card-play-a a button:hover {
+    transform: scale(1.2);
+    background-color: rgb(49, 97, 49);
+}
+.play-h1{
+    background-color: rgba(194, 202, 202, 0.546);
+    padding-bottom: 3rem;
+    text-shadow: 1px 1px 10px black;
+}
+#modal-2 > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border: 1px solid black;
+    height: 100%;
+}
+
+#fade-2 , #modal-2{
+    transition: 0.4s ;
+    opacity: 1;
+}
+
+#fade-2{
+    z-index: 15;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.564);
+}
+
+#modal-2{
+    border-radius: rem;
+    z-index: 20;
+    background-color: rgb(15, 13, 13);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 2px 2px 10px  #daa520;
+    max-width:  80vw;
+    max-height: 50vh;
+    position: absolute;
+    top: 12%;
+    right: 0;
+    color: black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+#modal-2 div.teste{
+    display: flex;
+}
+
+#modal-2.hide-2 , #fade-2.hide-2{
+    opacity: 0;
+    pointer-events: none;
+}
+

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../project/style.css">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="../../project/sanduiche.css">
+    <!-- <script src="../../project/script.js" defer></script> -->
+    <script src="cadastro.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="fade" class="hide"></div>
+    <div id="modal" class="hide">
+        <a  href=""> PLAYSTATION 5</a>
+        <a href="../../project/index.html">XBOX SERIE S</a>
+        <a href="../../project/index.html">NINTENDO SWICH</a>
+         <a href="../../project/index.html"> INICIO  </a>
+    </div>
+    <header>
+        <div class="container-1">
+            <div class="header1">
+                <a href="../../project/index.html"><img src="https://cdn.pnghd.pics/data/7/astronaut-gif-transparent-2.jpg" alt=""></a>
+                <label for="pesquisar"></label>
+                <a href="../../project/index.html"><h1>UNIVERSE <br> GAMES</h1></a>
+            </div>
+            <div class="header2">
+                <input type="text" name="pesquisar" id="" placeholder="Pesquisar">
+                <button id="btnCarrinhoCompras"><ion-icon name="cart-outline"></ion-icon></button>
+                
+            </div>
+        </div>
+        <div class="navBar">
+            <ion-icon style="color: white; width: 10%; height: 10vh; align-self: center;" name="menu-sharp"></ion-icon>
+            <ul>
+                <li>
+                    <a href="../../project/index.html"> PLAYSTATION 5<ion-icon class="ico" name="caret-down-outline"></ion-icon> </a>
+                    <ul class="dropdown">
+                        <li><a href="../../project/index.html"> JOGOS </a></li>
+                        <li><a href="../../project/index.html"> CONSOLE </a></li>
+                        <li><a href="../../project/index.html"> NOVIDADES </a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../../project/index.html">XBOX SERIE S<ion-icon class="ico" name="caret-down-outline"></ion-icon></a>
+                    <ul class="dropdown">
+                        <li><a href="../../project/index.html"> JOGOS </a></li>
+                        <li><a href="../../project/index.html"> CONSOLE </a></li>
+                        <li><a href="../../project/index.html"> NOVIDADES </a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../../project/index.html">NINTENDO SWICH<ion-icon class="ico" name="caret-down-outline"></ion-icon></a>
+                    <ul class="dropdown">
+                        <li><a href="../../project/index.html"> JOGOS </a></li>
+                        <li><a href="../../project/index.html"> CONSOLE </a></li>
+                        <li><a href="../../project/index.html"> NOVIDADES </a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../../project/index.html"> INICIO <ion-icon class="ico" name="caret-down-outline"></ion-icon> </a>
+                    <ul class="dropdown">
+                        <li><a href="../../project/index.html"> INFO </a></li>
+                        <li><a href="../../project/index.html"> LOCAL </a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="corpo-cadastro">
+        <div class="whats">
+            <a href="" target="_blank">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+        </div>
+
+        <div class="cadastro-form">
+            <container class="tudo">
+                <div class="cep-forme">
+                    
+                    <form class="cep-form" action="">
+                        
+                        <h1>Endereço</h1>
+                        
+                        <div>
+                            <label for="">CEP</label>
+                            <input type="text" name="" id="cep" maxlength="9" placeholder="Informe o seu CEP">
+                            <span id="cepInvalido"></span>
+                        </div>
+                        
+                        <div>
+                            <label for="">Logradouro</label>
+                            <input type="text" name="" id="logradouro" readonly>
+                        </div>
+                        
+                        <div>
+                            <label for="">Bairro</label>
+                            <input type="text" name="" id="bairro" readonly>
+                        </div>
+                        
+                        <div>
+                            <label for="">Localidade</label>
+                            <input type="text" name="" id="localidade" readonly>
+                        </div>
+                        
+                        <div>
+                            <label for="">UF</label>
+                            <input type="text" name="" id="uf" readonly>
+                        </div>
+                        
+                    </form>
+                </div>
+                
+                <div class="cadastro">
+                    <form class="cad-form" action="" method="" id="form">
+                        <h1>Cadastre-se</h1>
+                        <div>
+                            <label for="">Nome</label>
+                            <input type="text" id="nome">
+                        </div>
+                        <div>
+                            <label for="">Idade</label>
+                            <input type="number" id="idade">
+                        </div>
+                        <div>
+                            <label for="">Email</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div>
+                            <label for="">Senha</label>
+                            <input type="password" id="senha">
+                        </div>
+                        <div>
+                            <label for="">Confirmar Senha</label>
+                            <input type="password" id="senha-2">
+                        </div>
+                        <div>
+                            <input type="submit" value="Cadastrar">
+                        </div>
+                    </form>
+                </div>
+                
+
+               
+            </container>
+            
+        </div>
+        
+         
+    </main>
+
+    <footer>
+        <section class="section-3">
+            <div class="footer-display">
+                <div class="footer-1">
+                    <h1> <span class="text-titile"> UNIVERSE <br>GAMER </span></h1>
+                    <a><ion-icon name="logo-facebook"></ion-icon> FACEBOOK</a>
+                    <a id="YTB" href="https://www.youtube.com/@vitechdev"><ion-icon name="logo-youtube"></ion-icon> YOUTUBE</a>
+                    <a id="INSTA"> <ion-icon  name="logo-instagram" ></ion-icon> INSTAGRAM</a>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15354.733573927253!2d-48.0697127!3d-15.8206397!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3391b366fc47%3A0x88c16b784a3ad98f!2sSenai%20Taguatinga!5e0!3m2!1spt-BR!2sbr!4v1699724945111!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="footer-2">
+                    <h1>Sobre</h1>
+                    <p> <span class="text-titile">UNIVERSE GAMES</span> - Conectando Jogadores desde 2023
+
+                        A <span class="text-titile">UNIVERSE GAMES</span> é a referência em jogos no Brasil desde 2023, inspirada pelo pioneirismo da Industria de Games. Oferecemos uma experiência única de compra e venda de jogos e consoles, com entregas rápidas via motoboy em Todo o Brasil e região metropolitana, de segunda a sabado.
+                        
+                        Encontre jogos acessíveis, usados e com garantia, garantindo diversão sem comprometer seu bolso. Na <span class="text-titile">UNIVERSE GAMES</span>, acreditamos que cada jogo conta uma história, e queremos que você faça parte dela.
+                        
+                        Junte-se à nossa comunidade de gamers, explore novos mundos virtuais e aproveite o que a <span class="text-titile">UNIVERSE GAMES</span> e a ShopB têm a oferecer. Sua diversão está garantida em cada compra. Venha para a <span class="text-titile">UNIVERSE GAMES</span> e embarque em uma jornada de possibilidades infinitas!</p>
+                </div>
+                <div class="footer-3">
+                    <h1>DESENVOLVEDOR</h1>
+                    <p>Numa galáxia não tão distante, Francisco Filipe, o feiticeiro do código, deu vida ao site da <span class="text-titile">UNIVERSE GAMES</span>. Com café como poção mágica, ele enfrentou bugs como se fossem dragões e transformou linhas de código em ouro digital. Dizem que, quando os requisitos do cliente se tornam monstros, Francisco realiza uma dança mística em torno da cadeira. Então, ao explorar a <span class="text-titile">UNIVERSE GAMES</span>, lembre-se do mago que fez do mundo dos jogos uma jornada encantada. 🧙‍♂️💻✨</p>
+                    <p><a href="https://github.com/FranciscoFil"><ion-icon name="logo-github"></ion-icon> FranciscoFil</a> </p>
+                </div>
+            </div>
+        </section>
+        <section class="section-4">
+            <h1>Selos</h1>
+            <div class="security">
+                <img src="https://cdn.awsli.com.br/138/138431/arquivos/compra.svg" alt="">
+                <img src="https://cdn.awsli.com.br/138/138431/arquivos/google.svg" alt="">
+                <img src="https://cdn.awsli.com.br/138/138431/arquivos/correrios.svg" alt="">
+                <img src="https://cdn.awsli.com.br/138/138431/arquivos/opinioes.svg" alt="">
+                <img src="https://cdn.awsli.com.br/138/138431/arquivos/selo_ra1000_mgu.svg" alt="">
+            </div>
+        </section>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

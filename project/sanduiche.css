@@ -1,0 +1,285 @@
+section.div-2 nav:nth-child(1) ul li{
+    list-style-type: none;
+}
+
+/* Configurando modal */
+
+#modal > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border: 1px solid black;
+    height: 100%;
+}
+
+#fade , #modal{
+    transition: 0.4s ;
+    opacity: 1;
+}
+
+#fade{
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.564);
+}
+
+#modal{
+    border-radius: rem;
+    z-index: 10;
+    background-color: rgb(15, 13, 13);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 2px 2px 10px  #daa520;
+    max-width:  90vw;
+    max-height: 50vh;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    color: black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+#modal a{
+    text-decoration: none;
+    padding: 2rem;
+
+}
+
+
+#modal a{
+    color: white;
+}
+
+#modal div.teste{
+    display: flex;
+}
+
+#modal.hide , #fade.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+.carrossel-1 img{
+    height: 100%;
+}
+
+
+
+
+/*  */
+@media screen and (max-width: 660px) {
+    .header2 input, .header1 img, .mario, .divisor-1 img {
+        display: none;
+    }
+    .container-1{
+        gap: 2rem;
+        
+    }
+    .header2 {
+        margin-left: 35%;
+    }
+     .carrossel-automatico {
+        display: none;
+        
+    }
+
+    /* .carrossel-automatico img{
+        width: 110%;
+        border: 5px solid red;
+    }
+    .carrossel-1 div{
+        width: 100%;
+
+    } */
+
+}
+@media screen and (max-width: 960px){
+    .navBar li{
+        display: none;
+    }
+
+}
+@media screen and (min-width: 960px){
+    .navBar ion-icon{
+        display: none;
+
+    }
+}    
+.navBar ion-icon{
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    div.posicao {
+        bottom: 2vh;
+    }
+
+    div.posicao button:hover {
+        width: 20vh;
+    }
+    .txt-video{
+        width: 80%;
+        text-align: justify;
+    }
+    footer{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    .footer-display{
+
+        width: 100%;
+    }
+    .footer-1{
+       /* width: 30%; */
+       padding: 0;
+       padding-top: 2rem;
+       gap: 1rem;
+       height: 15%;
+       display: flex;
+       flex-direction: row;
+
+
+    }
+    .footer-1 iframe{
+       width: 120%;
+       height: 20%;
+
+    }
+    .footer-3{
+       text-align: center;
+       height: 10%;
+       margin: 0;
+       padding: 0;
+       padding-top: 2rem;
+       gap: 1rem;
+       width: 80%;
+    }
+    .footer-3 p{
+        font-size: 0.8rem;
+        padding: 0;
+        padding-top: 1rem;
+        text-align: start;
+
+
+    }
+    .footer-2{
+        display: none;
+    }
+    .security{
+        width: 90%;
+
+
+    }
+    .security img{
+        width: 4rem;
+
+    }
+    .section-4{
+        margin: 1rem;
+    }
+    .conteudo .divisor-1 p{
+        width: 90%;
+    }
+    .divisor-1 {
+
+        width: 90%;
+    }
+    .divisor-1 h1{
+        text-align: center;
+        margin: auto;        
+    }
+    .secao-jogos{
+       
+        width: 100%;
+    }
+    .promo{
+        width: 100%;
+    }
+    .container-play-a-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-play-b .card-play-a {
+        width: 30%;
+        height: 45vh;
+    }
+
+    .container-play-b .card-play-a h2{
+        font-size: 1rem;
+        height: 7vh;
+        align-self: center;
+        text-align: center;
+        padding-top: 2%;
+    }
+
+    .container-play-b .playstation{
+        height: 50vh;
+    }
+    
+
+
+    .container-play-a .container-play-a-1 .conteudo-1-play button{
+        width: 50%;
+    }
+
+
+    .nintendo-header{
+        background-position: 0rem;
+        /* background: linear-gradient(black, blue); */
+    }
+    .container-play-a .conteudo-1-play {
+        width: 100%;
+        margin: auto;
+    }
+    .container-play-a .conteudo-1-play p{
+        width: 100%;
+        padding-left: 1rem;
+    }
+    .tudo{
+        flex-direction: column;
+        
+    }
+    .cad-form{
+        width: 100%;
+        height: 95vh;
+    }
+    .cadastro-form .tudo .cadastro{
+        margin: auto;
+        width: 85%;
+
+    }
+
+    .cadastro-form .tudo .cep-form{
+        margin: auto;
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+    .cep-forme{
+        width: 100%;
+    }
+    .login-container .form-login {
+        width: 100%;
+    }
+ 
+}
+@media (max-width: 1000px) {
+    #imagem4{
+        display: none;    
+    }
+
+    /* .card-play-a{
+       
+    } */
+}
